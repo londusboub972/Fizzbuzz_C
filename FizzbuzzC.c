@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int main()
 {
 int number = 0;
 // getchar ();
 printf("Nombre ?\n");
-
 scanf("%d", &number);
-
 
 if (number % 5 == 0 && number % 3 == 0)
 {
@@ -31,6 +30,10 @@ return 0;
 }
 else
 {
+printf("\n");
 printf("%d",number);
+printf("\n");
+return 0;
+}
 }
 
